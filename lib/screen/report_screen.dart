@@ -24,7 +24,7 @@ class ReportsScreen extends StatelessWidget {
                     ),
                     child: const Center(
                       child: Text(
-                        'S',
+                        'M',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -47,7 +47,7 @@ class ReportsScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 2),
                       Text(
-                        'STUDENT NAME',
+                        'MUMTAHINA ESHA',
                         style: TextStyle(
                           color: Color(0xFF1E1E2D),
                           fontSize: 18,

@@ -24,7 +24,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     child: const Center(
                       child: Text(
-                        'S',
+                        'M',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -47,7 +47,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 2),
                       Text(
-                        'STUDENT NAME',
+                        'MUMTAHINA ESHA',
                         style: TextStyle(
                           color: Color(0xFF1E1E2D),
                           fontSize: 18,
@@ -130,7 +130,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       child: const Center(
                         child: Text(
-                          'SN',
+                          'ME',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 40,
@@ -151,7 +151,7 @@ class ProfileScreen extends StatelessWidget {
                           // Name Card
                           _buildInfoCard(
                             label: 'Name',
-                            value: 'STUDENT NAME (YOUR NAME HERE)',
+                            value: 'MUMTAHINA ESHA',
                           ),
 
                           const SizedBox(height: 16),
@@ -159,7 +159,7 @@ class ProfileScreen extends StatelessWidget {
                           // Student ID Card
                           _buildInfoCard(
                             label: 'Student ID',
-                            value: 'S12345 (YOUR ID HERE)',
+                            value: '2231514',
                           ),
 
                           const SizedBox(height: 16),
@@ -167,7 +167,7 @@ class ProfileScreen extends StatelessWidget {
                           // Email Card
                           _buildInfoCard(
                             label: 'Email',
-                            value: 'student.name@iub.edu (YOUR IUB EMAIL HERE)',
+                            value: '2231514@iub.edu.bd',
                           ),
 
                           const SizedBox(height: 24),
@@ -208,16 +208,7 @@ class ProfileScreen extends StatelessWidget {
                                     height: 1.5,
                                   ),
                                 ),
-                                const SizedBox(height: 12),
-                                const Text(
-                                  '(Note: Students should replace the text above with their own description here!)',
-                                  style: TextStyle(
-                                    color: Color(0xFFFF3B30),
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.4,
-                                  ),
-                                ),
+                                
                               ],
                             ),
                           ),
